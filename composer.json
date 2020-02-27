@@ -10,7 +10,13 @@
             "url": "https://github.com/moodlehq/php-webdriver.git"
         }
     ],
-	"require": {},
+	"require": {
+		"phpunit/phpunit": "7.5.*",
+        "phpunit/dbunit": "4.0.*",
+        "moodlehq/behat-extension": "3.39.1",
+        "mikey179/vfsstream": "^1.6",
+        "instaclick/php-webdriver": "dev-local as 1.x-dev"
+	},
     "require-dev": {
         "phpunit/phpunit": "7.5.*",
         "phpunit/dbunit": "4.0.*",
